@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.app-container {
+    width: 500px;
+    max-height: 100vh;
+
+    flex-direction: column;
+    align-items: center;
+
+    padding-top: 4vh;
+}
+
+.app-item {
+    margin-top: 4vh;
+    width: 100%;
+    height: fit-content;
+}
+.first {
+    margin-top: 1vh;
+}
+
+@media only screen and (max-width: 768px) {
+    .app-container{width: 100vw;}
+}
+
+hr {
+    width: 100%;
+}
