@@ -26,7 +26,7 @@ function App() {
       <h2>Expense Tracker</h2>
 
       <div className='app-item first'><Balance income={income} expense={expense} /></div>
-      <div className='app-item'><History ExpenseHistory={ExpenseHistory}/></div>
+      <div className='app-item'><History History={ExpenseHistory}/></div>
       <div className='app-item'><NewTrans /></div>
     </div>
   )
